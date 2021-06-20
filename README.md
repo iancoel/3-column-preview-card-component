@@ -4,7 +4,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [3-card-component-preview](3-card-component-preview.netlify.app)
 
 ### Built with
 
@@ -16,4 +16,4 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Author
 
-- Website - (https://www.linkedin.com/in/ian-coel/)
+- Website - [Ian Coelho - LinkedIn](https://www.linkedin.com/in/ian-coel/)
