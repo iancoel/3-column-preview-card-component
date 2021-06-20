@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  box-sizing: border-box;
+  overflow-y: visible;
+}
+a {
+  text-decoration: none;
+}
+.bg {
+  background: hsl(0, 0%, 95%);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  max-width: 920px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  align-items: center;
+  border-radius: 15px;
+  align-items: stretch;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.sedan,
+.suv,
+.luxury {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 45px;
+}
+.sedan p,
+.suv p,
+.luxury p {
+  margin-bottom: 20px;
+}
+.sedan img,
+.suv img,
+.luxury img {
+  width: 65px;
+}
+.sedan {
+  background: hsl(31, 77%, 52%);
+  border-radius: 15px 0 0 15px;
+}
+.suv {
+  background: hsl(184, 100%, 22%);
+}
+.luxury {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 15px 15px 0;
+}
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+.sedan a {
+  align-self: flex-start;
+  padding: 15px 30px;
+  display: block;
+  background: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  color: hsl(31, 77%, 52%);
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+.sedan a:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+.suv a {
+  align-self: flex-start;
+  padding: 15px 30px;
+  display: block;
+  background: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  color: hsl(184, 100%, 22%);
+  transition: 0.5s;
+}
+.suv a:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+.luxury a {
+  align-self: flex-start;
+  padding: 15px 30px;
+  display: block;
+  background: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  color: hsl(179, 100%, 13%);
+  transition: 0.5s;
+}
+.luxury a:hover {
+  border: 1px solid hsl(0, 0%, 95%);
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 600px) {
+  .bg {
+    margin: 0 auto;
+    height: 1502px;
+    align-content: flex-start;
+    padding: 85px 0;
+  }
+  .body {
+    overflow-y: visible;
+  }
+  .container {
+    grid-template-columns: 300px;
+    grid-template-rows: 500px 500px 500px;
+    height: 1326px;
+    align-items: stretch;
+    gap: 0;
+    margin: 0 auto;
+  }
+  .sedan,
+  .suv,
+  .luxury {
+    max-height: 440px;
+    padding: 30px;
+  }
+  .sedan {
+    border-radius: 15px 15px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 15px 15px;
+  }
+}
