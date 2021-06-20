@@ -1,4 +1,4 @@
-# Deployed here: https://www.3-card-component-preview.netlify.app
+# Deployed here: 3-card-component-preview.netlify.app
 
 # Frontend Mentor - 3-column preview card component solution
 
